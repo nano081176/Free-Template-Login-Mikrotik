@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Author" content="Ringroad">
+		<meta name="theme-color" content="#9831e0">
+		<meta name="msapplication-navbutton-color" content="#9831e0">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#9831e0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="icon" href="img/favicon.png">
+		<title>Kontak Kami</title>
+		<link rel="stylesheet" href="css/fontawesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+<style>
+form input {
+    margin-bottom: 13px !important;
+}
+form textarea {
+    border: 1px solid #ccc;
+    padding: 10px 17px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #acacbc !important;
+    border-radius: 25px !important;
+}
+</style>
+	</head>
+<body>
+<div class="app-container">
+ <div class="page page-home page-with-subnavbar">
+	<div class="toolbar tabbar tabbar-labels toolbar-bottom">
+		<div class="toolbar-inner">
+		 <a href="login.html" class="tab-link tab-link-active">
+		  <i class="fa fa-home"></i>
+		  <p>Home</p>
+		 </a>
+		 <a href="fitur.html" class="tab-link">
+		   <i class="fa fa-list-alt"></i>
+		   <p>Service</p>
+		 </a>
+		 <a href="paket.html" class="tab-link">
+		   <i class="fa fa-list"></i>
+		   <p>paket</p>
+		 </a>
+		   <a href="aktivasi.html" class="tab-link">
+			<i class="fa fa-shield"></i>
+			<p>Aktivasi</p>
+		   </a>
+		 <a href="about.html" class="tab-link">
+		   <i class="fa fa-user"></i>
+		   <p>About</p>
+		 </a>
+		 </a>
+		</div>
+	   </div>
+  <div class="page">
+   <div class="navbar navbar-page">
+    <div class="navbar-inner sliding">
+     <div class="left">
+      <a href="#" class="link back" onclick="javascript:history.go(-1);return false;">
+       <i class="fa fa-chevron-left"></i>
+      </a>
+     </div>
+     <div class="title">
+      Kontak Kami
+     </div>
+    </div>
+   </div>
+   <div class="page-content">
+    <!-- contact us -->
+<div class="margin-pages">
+			<div class="container">
+				<div class="background-white border-radius box-shadow">
+					<div class="padding-box">
+						<h5 class="margin-bottom-small">Kontak Kami</h5>
+						<p style="text-align:justify;">Anda memiliki pertanyaan dan saran?</p>
+						<p style="text-align:justify;">Silahkan menggunakan tautan Email di bawah, sehingga kami dapat menjawab pertanyaan Anda lebih efektif.</p>
+						<br>
+						<form id="EmailForm" action="javascript:contactUs();" name="EmailForm" class="text-center" >
+							<input id="nama" type="text" placeholder="Name">
+							<input id="email" type="email" placeholder="Email">
+							<textarea id="pesan" cols="30" rows="10">Pesan kamu disini...</textarea>
+							<button type="submit" class="buttons margin-top-middle">Kirim Pesan</button>
+						</form>
+					</div>
+				</div>
+				<div class="separator-small"></div>
+			</div>
+			<!-- follow us -->
+			<div class="container">
+				<div class="background-white border-radius box-shadow padding-box-middle text-center">
+					<h4 class="margin-bottom-small">Ikuti kami di :</h4>
+					<ul>
+						<li>
+							<a href=""><span class="icon-small icon-width socmed-bg-facebook color-white">
+								<i class="fa fa-facebook-f"></i>
+							</span></a>
+						</li>
+						<li>
+							<a href=""><span class="icon-small icon-width socmed-bg-twitter color-white">
+								<i class="fa fa-twitter"></i>
+							</span></a>
+						</li>
+						<li>
+							<a href=""><span class="icon-small icon-width socmed-bg-whatsapp color-white">
+								<i class="fa fa-whatsapp"></i>
+							</span></a>
+						</li>
+						<li>
+							<a href=""><span class="icon-small icon-width socmed-bg-google color-white">
+								<i class="fa fa-google"></i>
+							</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="separator"></div>
+		</div>
+   </div>
+  </div>
+ </div>
+ <br>
+</div>
+<div id="confirm" class="modal fade">
+<div class="modal-content">
+<div class="background-white padding-box border-radius box-shadow text-center">
+	<h6 class="margin-bottom-small">Pesan Anda berhasil terkirim, silahkan tunggu balasan dari kami via email.</h6>
+	<div class="separator-small"></div>
+	<button class="buttons buttons-full margin-top-small box-shadow" onclick="document.getElementById('confirm').style.display='none'">Oke</button>
+</div>
+</div>
+</div>
+<script>
+function contactUs(){
+// chat_id = "isi chat_id Anda";
+chat_id = "xxxxxx";
+// token = "isi token Anda";
+token = "xxxxxx:xxxxxx";
+message = "<b>Contact Us RINGROAD</b>%0Anama : "+ $("#nama").val() + "%0Aemail : " + $("#email").val() + "%0Aisi pesan : " + $("#pesan").val();
+$.get("https://api.telegram.org/bot"+token+"/sendMessage?text="+message+"&chat_id="+chat_id+"&parse_mode=html");
+$("#EmailForm").parent().hide();
+$("#confirm").show();
+}
+</script>
+</body>
+</html>
