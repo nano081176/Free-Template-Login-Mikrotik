@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Author" content="Ringroad">
+		<meta name="theme-color" content="#9831e0">
+		<meta name="msapplication-navbutton-color" content="#9831e0">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#9831e0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="icon" href="img/favicon.png">
+		<title></title>
+		<link rel="stylesheet" href="css/fontawesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+
+	</head>
+<body>
+<div class="app-container">
+    <div class="page page-home page-with-subnavbar">
+      <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+        <div class="toolbar-inner">
+            <a href="/" class="tab-link tab-link-active">
+                <i class="fa fa-home"></i>
+                <p>Home</p>
+            </a>
+            <a href="fitur.html" class="tab-link">
+                <i class="fa fa-list-alt"></i>
+                <p>Service</p>
+            </a>
+            <a href="paket.html" class="tab-link">
+                <i class="fa fa-list"></i>
+                <p>Paket</p>
+            </a>
+            <a href="aktivasi.html" class="tab-link">
+                <i class="fa fa-shield"></i>
+                <p>Aktivasi</p>
+            </a>
+            <a href="about.html" class="tab-link">
+                <i class="fa fa-user"></i>
+                <p>About</p>
+            </a>
+            </a>
+        </div>
+      </div>
+<div class="tabs-animated-wrap">
+    <div class="tabs" >
+        <div id="tab-1" class="tab tab-active page-content">
+            <header class="background-primer">
+                <h1 class="color-white margin-left-small">Selamat Datang di Akna.NET Hotspot</h1>
+                    <div class="header-right">
+                        <ul class="links">
+                            <li class="rad-dropdown">
+                                <a class="rad-menu-item" href="#">
+                                  <i class="fa fa-bell-o"><span class="rad-menu-badge">1</span></i>
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+            </header>
+<!-- slider -->
+<div class="border-radius-style background-slider background-primer">
+    <div class="container">
+        <div class="background-white border-radius padding-box-small box-shadow">
+            <div class="row row-no-margin-bottom">
+                <div id="slider" class="slider border-radius">
+                    <ul class="slides-wrapper">
+                        <li>
+                            <img src="img/banner1.jpg" alt="img1" />
+                        </li>
+                        <li>
+                            <img src="img/banner2.jpg" alt="img2" />
+                        </li>
+                        <li>
+                            <img src="img/banner3.jpg" alt="img3" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+</div>
+<div class="separator-small"></div>
+    <div class="login">
+        <div class="container">
+            <h6 class="margin-bottom-small text-center"><b><font color="white">Masukkan Kode Voucher</b></font></span></h6>
+                <div class="background-white border-radius padding-box-small box-shadow">
+                    <div class="row row-no-margin-bottom">
+	                        <form id="loginvcr" name="loginvcr" action="$(link-login-only)" method="post" autocomplete="off"
+		                            $(if chap-id) onSubmit="return doLoginVCR()" $(endif)>
+		                            <input type="hidden" name="dst" value="$(link-orig)" />
+		                            <input type="hidden" name="popup" value="true" />
+		                            <input type="text" name="username" placeholder="Kode Voucher" id="uservcr" required>
+		                            <input type="hidden" name="password" id="passvcr">
+		                            <button type="submit" class="buttons buttons-small">Login</button>
+	                        </form>   
+                    </div>
+                </div>
+            $(if error)
+                <div id="infoError" class="infoError">
+                    <script type="text/javascript">
+                          var error = "$(error)";
+                          var error1 = "user $(username) telah melebihi batas waktu uptime";
+                          var error2 = "user $(username) has reached traffic limit";
+                          var error3 = "tidak ditemukan profilenya";
+                          var error4 = "Salah username atau password.";
+                          var error5 = "user &lt;$(username)&gt; tidak ada.";
+                          var error6 = "simultaneous session limit reached";
+	                        var error7 = "tidak ada sesi yang diizinkan untuk user $(username)"
+                      if (error == error1 || error == error2 || error == error3) {
+                          document.getElementById("infoError").innerHTML = '<i class="fa fa-info-circle"></i> Masa Aktif Voucher anda sudah habis';
+                            } else if (error == error4) {
+                                  document.getElementById("infoError").innerHTML = '<i class="fa fa-info-circle"></i> Member atau Voucher salah atau tidak terdaftar di server kami';
+                                  } else if (error == error5) {
+                                     document.getElementById("infoError").innerHTML = '<i class="fa fa-info-circle"></i> Member atau Voucher Tidak Ditemukan';
+                                  } else if (error == error6) {
+                                    document.getElementById("infoError").innerHTML = '<i class="fa fa-info-circle"></i> Jumlah Session Login Telah Dibatasi';
+                                  } else if (error == error7) {
+                                    document.getElementById("infoError").innerHTML = '<i class="fa fa-info-circle"></i> Member atau Voucher sedang digunakan di perangkat lain';
+                                  } else {
+                                  document.getElementById("infoError").innerHTML = '<i class="fa fa-info-circle"></i> $(error)';
+                                  }
+                    </script>
+                </div>
+            $(endif)
+        </div>
+</div>
+<div class="separator-small"></div>
+    <div class="menus">
+        <div class="container">
+            <div class="row">
+            <div class="col">
+                <a href="trial-user.html">
+                <div class="background-white text-center border-radius padding-box box-shadow">
+                    <span class="icon-big icon-color-lime"><i class="fa fa-unlock"></i></span>
+                    <h6 class="font-weight-500">Gratisan</h6>
+                </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="voucher.html">
+                  <div class="background-white text-center border-radius padding-box box-shadow">
+                    <span class="icon-big icon-color-orange"><i class="fa fa-ticket"></i></span>
+                    <h6 class="font-weight-500">Voucher</h6>
+                  </div>
+                </a>
+            </div>
+            <div class="col">
+                <a href="member.html">
+                    <div class="background-white text-center border-radius padding-box box-shadow">
+                        <span class="icon-big icon-color-purple"><i class="fa fa-users"></i></span>
+                        <h6 class="font-weight-500">Member</h6>
+                    </div>
+                </a>
+            </div>
+        </div>
+  <div class="row">
+      <div class="col">
+            <a href="https://laksa19.github.io/myqr">
+            <!-- <a href="status.html"> -->
+              <div class="background-white text-center border-radius padding-box box-shadow">
+                  <span class="icon-big icon-color-teal"><i class="fa fa-qrcode"></i></span>
+                  <h6 class="font-weight-500">QR Code</h6>
+              </div>
+          </a>
+      </div>
+      <div class="col">
+          <a href="faq.html">
+              <div class="background-white text-center border-radius padding-box box-shadow">
+                  <span class="icon-big icon-color-yellow"><i class="fa fa-question-circle"></i></span>
+                  <h6 class="font-weight-500">Bantuan</h6>
+              </div>
+          </a>
+      </div>
+      <div class="col">
+          <a href="kontak.html">
+              <div class="background-white text-center border-radius padding-box box-shadow">
+                  <span class="icon-big icon-color-lime"><i class="fa fa-envelope-o"></i></span>
+                  <h6 class="font-weight-500">Contact</h6>
+              </div>
+          </a>
+      </div>
+  </div>
+ </div>
+</div>
+<div class="separator-small"></div>
+<div class="container margin-bottom-big">
+ <div class="background-white border-radius box-shadow padding-box-middle text-center">
+  <br>
+  <h3> <font color="red">HOT PROMO !!! :</font></h3>
+  <h4>Ayoo tukarkan 10 Voucher dengan 1 Voucher GRATIS!!!</h4><br>
+  <h6>Promo ini berlaku untuk semua voucher, oleh karena itu harap vouchernya disimpan dan dikumpulkan sebanyak 10 Voucher. Kemudian bisa ditukarkan dengan 1 Voucher GRATIS. Penukaran bisa langsung ke TEH RINI/MAS ARUL/PAK PIAN/RESELLER Terdekat yaa (yang ada tulisan Agen Akna.NET).<br><br> Terima kasih atas kepercayaan anda untuk memakai Hotspot kami.</h6><br>
+
+
+<div class="separator-small"></div>
+<div class="container margin-bottom-big">
+ <div class="background-white border-radius box-shadow padding-box-middle text-center">
+  <h4 class="margin-bottom-small">Ikuti kami di :</h4>
+  <ul>
+   <li>
+    <a href="/">
+     <span class="icon-small icon-width socmed-bg-facebook color-white">
+      <i class="fa fa-facebook"></i>
+     </span>
+    </a>
+   </li>
+   <li>
+    <a href="/">
+     <span class="icon-small icon-width socmed-bg-twitter color-white">
+      <i class="fa fa-twitter"></i>
+     </span>
+    </a>
+   </li>
+   <li>
+    <a href="/">
+     <span class="icon-small icon-width socmed-bg-whatsapp color-white">
+      <i class="fa fa-whatsapp"></i>
+     </span>
+    </a>
+   </li>
+   <li>
+    <a href="/">
+     <span class="icon-small icon-width socmed-bg-google color-white">
+      <i class="fa fa-google"></i>
+     </span>
+    </a>
+   </li>
+  </ul>
+ </div>
+ <div class="separator-bottom"></div>
+ <center><small>@2024 Hak Cipta Akna.NET <br>Akna.NET dibawah naungan <a href="http://www.multilapak.com">Multilapak.com</a></small></div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+$(if chap-id) 
+<form name="sendin" action="$(link-login-only)" method="post">
+	<input type="hidden" name="username" />
+	<input type="hidden" name="password" />
+	<input type="hidden" name="dst" value="$(link-orig)" />
+	<input type="hidden" name="popup" value="true" />
+</form>
+<script type="text/javascript" src="md5.js"></script>
+<script type="text/javascript">
+// Login Voucher
+function doLoginVCR() {
+	document.sendin.username.value = document.loginvcr.username.value;
+	document.sendin.password.value = hexMD5('$(chap-id)' + document.loginvcr.username.value + '$(chap-challenge)');
+	document.sendin.submit();
+	return false;
+}
+</script>
+$(endif)
+<script>
+var host = window.location.hostname;
+document.title = "Login Hotspot - " + host;
+function kodevoucher() {
+    var uservalue = document.getElementById("uservcr").value; // .toLowerCase(); // .toUpperCase();
+    document.getElementById("uservcr").value = uservalue;
+}
+document.getElementById("uservcr").focus();
+document.getElementById("uservcr").onkeyup = kodevoucher;
+</script>
+<!-- end script -->
+<script>
+$(document).ready(function() {
+	window.setTimeout(function() {
+		$(".infoError").fadeTo(1000, 0).slideUp(1000, function() {
+			$(this).remove();
+		});
+	}, 10000);
+});
+</script>
+<script>
+// Status server
+var img = new Image();
+img.onload = function(){
+	document.getElementById("statusServer").innerHTML = '<i class="fa fa-circle online"></i> Server is online!';
+};
+img.onerror = function() {
+	var offln = document.querySelector('.rad-dropmenu-item');
+	offln.classList.add('active');
+	document.getElementById("statusServer").innerHTML = '<i class="fa fa-circle offline"></i> Server is offline :(!';
+};
+// Cek status koneksi
+img.src = 'https://laksa19.github.io/img/voucher/cbp.png';
+</script>
+<script>
+var addActive = function(e){
+  e.stopPropagation();
+  $(".rad-dropmenu-item").toggleClass("active");
+};
+var removeActive = function(){
+    $('.rad-dropmenu-item.active').removeClass('active');
+};
+$(document).ready(function() {
+  $('li.rad-dropdown > a.rad-menu-item').on('click',addActive);
+  $('body').on('click',removeActive);
+});
+</script>
+<!--
+<script> 
+    window.intergramId = "6024303213";
+    window.intergramCustomizations = {
+   titleClosed: 'Chat Admin',
+   titleOpen: 'Sedang Chat...',
+   introMessage: 'Halo, Selamat Datang di Akna.Net CS Admin',
+   autoResponse: 'Terima kasih sudah menggunakan Wifi kami, Ada yang bisa kami bantu ?',
+   autoNoResponse: 'Mohon Menunggu, Admin akan segera membalas Chat Anda',
+   mainColor: "#0000FF",
+   alwaysUseFloatingButton: true
+};
+</script>
+
+<script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
+
+<a class='fixed-whatsapp' href='https://api.whatsapp.com/send?phone=6289603586107&amp;text=Haii admin Labkom.co.id,  ' rel='nofollow noopener' target='_blank' title='Whatsapp'>
+<svg viewBox='0 0 24 24' width='34' height='34'>
+<path fill='#ffffff' d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z'/>
+</svg>
+</a>
+
+
+<script type="text/javascript">
+    (function()
+        {
+            var c={whatsapp:"+6281223748824",call_to_action:"Chat Admin",position:"right"};
+            var f=document.location.protocol,e="getbutton.io",b=f+"//static."+e;
+            var d=document.createElement("script");
+                d.type="text/javascript";
+                d.async=true;
+                d.src=b+"/widget-send-button/js/init.js";
+                d.onload=function(){WhWidgetSendButton.init(e,f,c)};
+                var a=document.getElementsByTagName("script")[0];
+                a.parentNode.insertBefore(d,a)
+        }
+    )();
+</script>
+-->
+
+<!--Start of Tawk.to Script 
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/671b43c42480f5b4f593a212/1ib181em1';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+</body>
+</html>

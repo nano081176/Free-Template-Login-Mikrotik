@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="Author" content="Ringroad">
+		<!-- Untuk Chrome & Opera -->
+		<meta name="theme-color" content="#9831e0">
+		<!-- Untuk Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#9831e0">
+		<!-- Untuk Safari iOS -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#9831e0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="icon" href="img/favicon.png">
+		<title>Pusat Bantuan</title>
+		<link rel="stylesheet" href="css/fontawesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+<style>
+#accordion_search_bar_container {
+  position: relative;
+}
+#accordion_search_bar_container:after {
+  content: '\f002';
+  font-family: FontAwesome;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 10px;
+  bottom: 7px;
+}
+#accordion_search_bar_container #accordion_search_bar {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #cacaca;
+  border-radius: 25px;
+  outline: 0;
+}
+.accordion-content ul li {
+    list-style: circle;
+    display: list-item;
+    margin: 0 3px;
+}
+</style>
+	</head>
+<body>
+<div class="app-container">
+<div class="page page-home page-with-subnavbar">
+  <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+    <div class="toolbar-inner">
+     <a href="login.html" class="tab-link tab-link-active">
+      <i class="fa fa-home"></i>
+      <p>Home</p>
+     </a>
+     <a href="fitur.html" class="tab-link">
+       <i class="fa fa-list-alt"></i>
+       <p>Service</p>
+     </a>
+     <a href="paket.html" class="tab-link">
+       <i class="fa fa-list"></i>
+       <p>paket</p>
+     </a>
+       <a href="aktivasi.html" class="tab-link">
+        <i class="fa fa-shield"></i>
+        <p>Aktivasi</p>
+       </a>
+     <a href="about.html" class="tab-link">
+       <i class="fa fa-user"></i>
+       <p>About</p>
+     </a>
+     </a>
+    </div>
+   </div>
+<!-- Pusat Bantuan -->
+<div class="page">
+	<div class="navbar navbar-page">
+		<div class="navbar-inner sliding">
+			<div class="left">
+				<a href="#" class="link back" onclick="javascript:history.go(-1);return false;">
+					<i class="fa fa-chevron-left"></i>
+				</a>
+			</div>
+			<div class="title">
+				Pusat Bantuan
+			</div>
+		</div>
+	</div>
+	<div class="page-content">
+		<!-- Pusat Bantuan Content -->
+<div class="margin-pages">
+			<div class="container">
+  <!-- h4 class="margin-bottom-small text-center color-primer">Frequently Asked Questions</h4 -->
+				<div class="background-white border-radius box-shadow">
+					<div class="padding-box">
+
+            <div id="accordion_search_bar_container">
+                <input type="search" id="accordion_search_bar" placeholder="Cari disini" value="" onkeyup="this.setAttribute('value', this.value);">
+                <a></a>
+            </div>
+            <hr>
+					
+            <div class="accordion" id="accordion">
+              <div class="accordion-item" id="item1">
+                <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Cara beli Voucher Akna.NET</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <ul style="padding-left:12px;text-align:justify;">
+                          <br>
+                          <li>Voucher Hotspot Akna.NET bisa dibeli di Online dan Offline, untuk yang Online bisa di pesan langsung <a class="color-primer" href="voucher.html">disini</a></li>
+                          <br>
+                          <li>Sedangkan untuk yang Offline bisa didapatkan di : </li>
+                          <br>
+                              <ul><b>Sdri. Teh Rini</b></ul>
+                              <ul><b>Mas Galih</b></ul>
+                              <ul><b>Mas Parminto</b></ul><br>
+                              <ul><b>atau bisa langsung datang ke Akna.NET (Kostan Mas Hari Blok Monong No.2i dengan Sdr. Nano)</b></ul>
+                              
+                          <br>
+                        </ul>
+                    </div>
+            </div>
+            <div class="accordion-item" id="item2">
+                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Cara Terhubung ke Wifi Hotspot Akna.NET</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+		                        <ul style="padding-left:12px;text-align:justify;">
+                              <br>
+                              <li>Siapkan Kode Voucher yang anda miliki, jika belum punya silakan beli voucher <a class="color-primer" href="voucher.html">disini</a></li>
+                              <br>
+                              <li>Pastikan area anda tercover dengan <b>signal wifi</b> Akna.NET</li>
+                              <br>
+                              <li>Akfitkan wireless pada <b>smartphone atau laptop</b> anda dan koneksikan dengan <b>SSID WiFi</b> Akna.NET</li>
+                              <br>
+                              <li>Tunggu beberapa saat sampai pop-up notifikasi untuk login muncul</li>
+                              <br>
+                              <li>Setelah anda berhasil masuk ke <b>halaman login</b> silakan aktivasi <b>KODE VOUCHER</b> dan klik <b>Login</b></li>
+                              </ul>
+                        </div>
+                </div>
+                <div class="accordion-item" id="item3">
+                    <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Notifikasi untuk Login Tidak Muncul</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+	                          <ul style="padding-left:12px;text-align:justify;">
+                              <br>
+                              <span>Bagaimana Cara mnengtasi notifikasi tidak muncul padahal perangkat sudah tersambung ke hotspot Akna.NET. yang harus anda lakukan adalah dengan cara manual sebagai berikut :</span>
+                              <br><br>
+                              <li>Silakan buka apps browser <b><i>(ex. chrome, mozilla, etc)</i></b> pada smartphone atau laptop anda.</li>
+                              <br>
+                              <li>Ketikan url pada addressbar browser <b>akna.net/login</b> lalu tekan enter</li>
+                              <br>
+                              <li>Tunggu hingga proses loading selesai menampilkan halaman login.</li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="accordion-item" id="item4">
+                    <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Cara cek masa aktif Voucher Akna.NET</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+		                        <ul style="padding-left:12px;text-align:justify;">
+                              <br>
+                              <li>Gunakan Browser, Google chrome atau uc browser atau lainya</li>
+                              <br>
+                              <li>ketikan pada addressbar <a href="http://akna.net/status">http://akna.net/status</a></li>
+                              <br>
+                              <li>Tunggu hingga loading selesai menampilkan halaman</li>
+                              <br>
+                              <li>Contoh disini saya mepunyai sisa waktu <b>16h28m</b></li>
+                              <br>
+                              <li>Kode tersebut berarti <b>16h</b> adalah 16 jam, dan <b>28m</b> sama dengan 28 menit</li>
+		                        </ul>
+                        </div>
+                </div>
+                <div class="accordion-item" id="item5">
+                    <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Apakah Kode Voucher bisa di gunakan di perangkat lain.?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+			                      <ul style="padding-left:12px;text-align:justify;">
+                              <br>
+                              <span>Pertanyaan ini yang sering di tanyakan oleh pelanggan,</span>
+                              <br><br>
+                              <b>Pertanyaan :</b> Apakah kode voucher bisa di gunakan di perangkat lain? 
+                              <br><br>
+                              <b>Jawaban :</b> Ya, tentu saja bisa, namun dengan catatan anda harus logout terlebih dahulu dari perangkat sebelumnya yang telah di gunakan untuk login ke wifi kami. agar bisa pindah ke perangkat lain.
+                              <br><br>
+                              <b>Penjelasan :</b> Sistem kami menggunakan alamat <b>IP ADDRESS</b>, dan kami batasi hanya 1 IP ADDRESS untuk satu <b>KODE VOUCHER</b>, Jadi anda hanya bisa menggunakan 1 KODE VOUCHER untuk satu perangkat saja, dalam artian anda tidak dapat menggunakan 1 voucher untuk 2 perangkat secara bersamaan.
+                            </ul>
+                        </div>
+                </div>
+                <div class="accordion-item" id="item6">
+                    <button id="accordion-button-6" aria-expanded="false"><span class="accordion-title">Sudah Login Tapi Tidak Bisa Internet</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+			                      <ul style="padding-left:12px;text-align:justify;">
+                              <br>
+		                          <li>Hubungi admin, laporkan kendala yang anda alami</li>
+                              <br>
+		                          <li>Kami akan melakukan pengecekan</li>
+                              <br>
+		                          <li>Jika masalah dari server, maka akan kami berikan voucher pengganti</li>
+                              <br>
+		                        </ul>
+                        </div>
+                </div>
+              </div>
+					</div>
+				</div>
+			</div>
+			<!-- separator -->
+			<div class="separator"></div>
+			<!-- end separator -->
+		</div>
+		<!-- end Pusat Bantuan Content -->
+	</div>
+</div>
+
+</div>
+</div>
+
+<script>
+const items = document.querySelectorAll(".accordion button");
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+  
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+  
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));
+
+</script>
+<script>
+  (function(){
+  var searchTerm, panelContainerId;
+  // Create a new contains that is case insensitive
+  jQuery.expr[':'].containsCaseInsensitive = function (n, i, m) {
+    return jQuery(n).text().toUpperCase().indexOf(m[3].toUpperCase()) >= 0;
+  };
+  
+  jQuery('#accordion_search_bar').on('change keyup paste click', function () {
+    searchTerm = jQuery(this).val();
+    if (searchTerm.length >= 3) {
+      jQuery('#accordion > .accordion-item').each(function () {
+        panelContainerId = '#' + jQuery(this).attr('id');
+        jQuery(panelContainerId + ':not(:containsCaseInsensitive(' + searchTerm + '))').hide();
+        jQuery(panelContainerId + ':containsCaseInsensitive(' + searchTerm + ')').show().find("button").attr( 'aria-expanded', 'true');
+      });
+    }
+    else {
+	  jQuery(".accordion-item").show();
+      jQuery(".accordion-item").find("button").attr( 'aria-expanded', 'false');
+    }
+  });
+  }());
+</script>
+<!-- end script -->
+</body>
+</html>

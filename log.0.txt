@@ -1,0 +1,137 @@
+Jan/06/2025 13:22:53 hotspot,account,info,debug ->: Niki2 (11.11.11.94): logged in
+Jan/06/2025 13:23:29 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): trying to log in by mac
+Jan/06/2025 13:23:29 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): login failed: invalid username or password
+Jan/06/2025 13:23:35 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): trying to log in by mac
+Jan/06/2025 13:23:35 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): login failed: invalid username or password
+Jan/06/2025 13:24:29 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 13:24:29 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 13:27:54 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): trying to log in by mac
+Jan/06/2025 13:27:54 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): login failed: invalid username or password
+Jan/06/2025 13:29:12 hotspot,info,debug ->: A3K7WWM (11.11.11.194): trying to log in by mac-cookie
+Jan/06/2025 13:29:12 hotspot,account,info,debug ->: A3K7WWM (11.11.11.194): logged in
+Jan/06/2025 13:30:38 hotspot,info,debug ->: Fadil (11.11.11.9): logged out: keepalive timeout
+Jan/06/2025 13:33:43 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 13:33:43 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 13:34:41 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): trying to log in by mac
+Jan/06/2025 13:34:41 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): login failed: invalid username or password
+Jan/06/2025 13:35:28 hotspot,info,debug ->: A3K7WWM (11.11.11.194): logged out: keepalive timeout
+Jan/06/2025 13:36:03 hotspot,info,debug ->: 8A:2C:47:09:D9:8A (11.11.11.168): trying to log in by mac
+Jan/06/2025 13:36:03 hotspot,info,debug ->: 8A:2C:47:09:D9:8A (11.11.11.168): login failed: invalid username or password
+Jan/06/2025 13:36:38 hotspot,info,debug ->: rusdi2 (11.11.11.117): trying to log in by mac-cookie
+Jan/06/2025 13:36:38 hotspot,account,info,debug ->: rusdi2 (11.11.11.117): logged in
+Jan/06/2025 13:37:45 hotspot,info,debug ->: Niki2 (11.11.11.94): logged out: keepalive timeout
+Jan/06/2025 13:38:49 hotspot,info,debug ->: rusdi2 (11.11.11.117): logged out: keepalive timeout
+Jan/06/2025 13:41:52 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 13:41:52 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 13:44:31 hotspot,info,debug ->: 7E:E1:57:88:FB:18 (11.11.11.10): trying to log in by mac
+Jan/06/2025 13:44:31 hotspot,info,debug ->: 7E:E1:57:88:FB:18 (11.11.11.10): login failed: invalid username or password
+Jan/06/2025 13:46:53 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 13:46:53 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 13:47:18 hotspot,info,debug ->: Niki2 (12.12.12.81): trying to log in by mac-cookie
+Jan/06/2025 13:47:18 hotspot,account,info,debug ->: Niki2 (12.12.12.81): logged in
+Jan/06/2025 13:47:20 hotspot,info,debug ->: Niki2 (12.12.12.81): logged out: host removed: dhcp entry overrides dynamic one
+Jan/06/2025 13:47:22 hotspot,info,debug ->: Niki2 (11.11.11.94): trying to log in by mac-cookie
+Jan/06/2025 13:47:22 hotspot,account,info,debug ->: Niki2 (11.11.11.94): logged in
+Jan/06/2025 13:54:34 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 13:54:34 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 13:55:25 hotspot,info,debug ->: A3KUVV5 (11.11.11.13): logged out: session timeout
+Jan/06/2025 13:56:52 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): trying to log in by mac
+Jan/06/2025 13:56:52 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): login failed: invalid username or password
+Jan/06/2025 13:57:38 hotspot,info,debug ->: 1E:1D:82:E9:6A:38 (11.11.11.213): trying to log in by mac
+Jan/06/2025 13:57:38 hotspot,info,debug ->: 1E:1D:82:E9:6A:38 (11.11.11.213): login failed: invalid username or password
+Jan/06/2025 13:59:35 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 13:59:35 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 13:59:55 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): trying to log in by mac
+Jan/06/2025 13:59:55 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): login failed: invalid username or password
+Jan/06/2025 14:01:04 hotspot,info,debug ->: 98:B0:8B:EC:98:E4 (11.11.11.12): trying to log in by mac
+Jan/06/2025 14:01:04 hotspot,info,debug ->: 98:B0:8B:EC:98:E4 (11.11.11.12): login failed: invalid username or password
+Jan/06/2025 14:01:24 hotspot,info,debug ->: Rini (11.11.11.75): trying to log in by mac-cookie
+Jan/06/2025 14:01:24 hotspot,account,info,debug ->: Rini (11.11.11.75): logged in
+Jan/06/2025 14:01:39 hotspot,info,debug ->: A3K4FSN (11.11.11.13): trying to log in by http-chap
+Jan/06/2025 14:01:39 hotspot,account,info,debug ->: A3K4FSN (11.11.11.13): logged in
+Jan/06/2025 14:04:35 hotspot,info,debug ->: Rini (11.11.11.75): logged out: keepalive timeout
+Jan/06/2025 14:04:39 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 14:04:39 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 14:09:47 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): trying to log in by mac
+Jan/06/2025 14:09:47 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): login failed: invalid username or password
+Jan/06/2025 14:13:44 hotspot,info,debug ->: AA:57:4F:F7:22:42 (11.11.11.180): trying to log in by mac
+Jan/06/2025 14:13:44 hotspot,info,debug ->: AA:57:4F:F7:22:42 (11.11.11.180): login failed: invalid username or password
+Jan/06/2025 14:14:00 hotspot,info,debug ->: Fadil (11.11.11.9): trying to log in by mac-cookie
+Jan/06/2025 14:14:00 hotspot,account,info,debug ->: Fadil (11.11.11.9): logged in
+Jan/06/2025 14:17:27 hotspot,info,debug ->: Rini (11.11.11.75): trying to log in by mac-cookie
+Jan/06/2025 14:17:27 hotspot,account,info,debug ->: Rini (11.11.11.75): logged in
+Jan/06/2025 14:18:07 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): trying to log in by mac
+Jan/06/2025 14:18:07 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): login failed: invalid username or password
+Jan/06/2025 14:18:26 hotspot,info,debug ->: 52:15:1F:5B:97:1C (11.11.11.14): trying to log in by mac
+Jan/06/2025 14:18:26 hotspot,info,debug ->: 52:15:1F:5B:97:1C (11.11.11.14): login failed: invalid username or password
+Jan/06/2025 14:23:44 hotspot,info,debug ->: AA:57:4F:F7:22:42 (11.11.11.180): trying to log in by mac
+Jan/06/2025 14:23:44 hotspot,info,debug ->: AA:57:4F:F7:22:42 (11.11.11.180): login failed: invalid username or password
+Jan/06/2025 14:24:29 hotspot,info,debug ->: Rini (11.11.11.75): logged out: keepalive timeout
+Jan/06/2025 14:25:13 hotspot,info,debug ->: 52:15:1F:5B:97:1C (11.11.11.14): trying to log in by mac
+Jan/06/2025 14:25:13 hotspot,info,debug ->: 52:15:1F:5B:97:1C (11.11.11.14): login failed: invalid username or password
+Jan/06/2025 14:31:52 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 14:31:52 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 14:37:05 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): trying to log in by mac
+Jan/06/2025 14:37:05 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): login failed: invalid username or password
+Jan/06/2025 14:38:10 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): trying to log in by mac
+Jan/06/2025 14:38:10 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): login failed: invalid username or password
+Jan/06/2025 14:39:28 hotspot,info,debug ->: Fadil (11.11.11.9): logged out: keepalive timeout
+Jan/06/2025 14:41:38 hotspot,info,debug ->: A3K7WWM (11.11.11.194): trying to log in by mac-cookie
+Jan/06/2025 14:41:38 hotspot,account,info,debug ->: A3K7WWM (11.11.11.194): logged in
+Jan/06/2025 14:41:52 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 14:41:52 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 14:42:59 hotspot,info,debug ->: Fadil (11.11.11.9): trying to log in by mac-cookie
+Jan/06/2025 14:42:59 hotspot,account,info,debug ->: Fadil (11.11.11.9): logged in
+Jan/06/2025 14:45:54 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): trying to log in by mac
+Jan/06/2025 14:45:54 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): login failed: invalid username or password
+Jan/06/2025 14:47:09 hotspot,info,debug ->: Niki2 (11.11.11.94): logged out: keepalive timeout
+Jan/06/2025 14:49:12 hotspot,info,debug ->: Rini (11.11.11.75): trying to log in by mac-cookie
+Jan/06/2025 14:49:12 hotspot,account,info,debug ->: Rini (11.11.11.75): logged in
+Jan/06/2025 14:49:30 hotspot,info,debug ->: Niki2 (11.11.11.94): trying to log in by mac-cookie
+Jan/06/2025 14:49:30 hotspot,account,info,debug ->: Niki2 (11.11.11.94): logged in
+Jan/06/2025 14:53:07 hotspot,info,debug ->: lusi3 (11.11.11.242): trying to log in by mac-cookie
+Jan/06/2025 14:53:07 hotspot,account,info,debug ->: lusi3 (11.11.11.242): logged in
+Jan/06/2025 14:54:02 hotspot,info,debug ->: Rini (11.11.11.75): logged out: lost dhcp lease
+Jan/06/2025 14:59:20 hotspot,info,debug ->: Fadil (11.11.11.9): logged out: keepalive timeout
+Jan/06/2025 15:01:06 hotspot,info,debug ->: Fadil (11.11.11.9): trying to log in by mac-cookie
+Jan/06/2025 15:01:06 hotspot,account,info,debug ->: Fadil (11.11.11.9): logged in
+Jan/06/2025 15:03:13 hotspot,info,debug ->: 5A:AA:D5:40:AA:50 (11.11.11.186): trying to log in by mac
+Jan/06/2025 15:03:13 hotspot,info,debug ->: 5A:AA:D5:40:AA:50 (11.11.11.186): login failed: invalid username or password
+Jan/06/2025 15:04:49 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 15:04:49 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 15:13:45 hotspot,info,debug ->: Rini (11.11.11.75): trying to log in by mac-cookie
+Jan/06/2025 15:13:45 hotspot,account,info,debug ->: Rini (11.11.11.75): logged in
+Jan/06/2025 15:14:46 hotspot,info,debug ->: Fadil (11.11.11.9): logged out: keepalive timeout
+Jan/06/2025 15:16:38 hotspot,info,debug ->: Rini (11.11.11.75): logged out: keepalive timeout
+Jan/06/2025 15:19:50 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 15:19:50 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 15:22:19 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): trying to log in by mac
+Jan/06/2025 15:22:19 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): login failed: invalid username or password
+Jan/06/2025 15:22:47 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): trying to log in by mac
+Jan/06/2025 15:22:47 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): login failed: invalid username or password
+Jan/06/2025 15:24:51 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 15:24:51 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 15:27:27 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): trying to log in by mac
+Jan/06/2025 15:27:27 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): login failed: invalid username or password
+Jan/06/2025 15:29:53 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 15:29:53 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 15:30:03 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): trying to log in by mac
+Jan/06/2025 15:30:03 hotspot,info,debug ->: B6:9F:D9:72:38:27 (11.11.11.226): login failed: invalid username or password
+Jan/06/2025 15:32:07 hotspot,info,debug ->: 0A:AC:D3:AF:07:5A (11.11.11.249): trying to log in by mac
+Jan/06/2025 15:32:07 hotspot,info,debug ->: 0A:AC:D3:AF:07:5A (11.11.11.249): login failed: invalid username or password
+Jan/06/2025 15:32:25 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): trying to log in by mac
+Jan/06/2025 15:32:25 hotspot,info,debug ->: AA:60:9B:2B:18:98 (11.11.11.227): login failed: invalid username or password
+Jan/06/2025 15:36:11 hotspot,info,debug ->: AE:4D:EF:4E:56:25 (11.11.11.15): trying to log in by mac
+Jan/06/2025 15:36:11 hotspot,info,debug ->: AE:4D:EF:4E:56:25 (11.11.11.15): login failed: invalid username or password
+Jan/06/2025 15:41:51 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 15:41:51 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
+Jan/06/2025 15:45:05 hotspot,info,debug ->: Rijal (11.11.11.11): logged out: keepalive timeout
+Jan/06/2025 15:49:04 hotspot,info,debug ->: Niki2 (11.11.11.94): logged out: keepalive timeout
+Jan/06/2025 15:54:04 hotspot,info,debug ->: B8:3A:08:22:AB:60 (12.12.12.121): trying to log in by mac
+Jan/06/2025 15:54:04 hotspot,info,debug ->: B8:3A:08:22:AB:60 (12.12.12.121): login failed: invalid username or password
+Jan/06/2025 15:54:05 hotspot,info,debug ->: Rijal (11.11.11.11): trying to log in by mac-cookie
+Jan/06/2025 15:54:05 hotspot,account,info,debug ->: Rijal (11.11.11.11): logged in
+Jan/06/2025 16:00:46 hotspot,info,debug ->: Rini (11.11.11.75): trying to log in by mac-cookie
+Jan/06/2025 16:00:46 hotspot,account,info,debug ->: Rini (11.11.11.75): logged in
+Jan/06/2025 16:01:51 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): trying to log in by mac
+Jan/06/2025 16:01:51 hotspot,info,debug ->: DE:2D:3E:9D:6E:0D (11.11.11.207): login failed: invalid username or password
